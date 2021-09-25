@@ -26,11 +26,11 @@ from youtubesearchpython import VideosSearch
 
 buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/UbalataPissuda"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/ApitaPissuda"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("🤖 MY MASTER 🤖", url="https://t.me/LordVladtheImpalerTransylvania"),
             ]
          ]
 
@@ -40,8 +40,8 @@ async def search(client, query):
     if query.query == "SAF_ONE":
         answers.append(
             InlineQueryResultArticle(
-                title="Deploy Own Video Player Bot",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @SafoTheBot 👑</b>", disable_web_page_preview=True),
+                title="Dracula Video Player Bot",
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@LordVladtheImpalerTransylvania 👑</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
