@@ -124,7 +124,7 @@ async def stream(client, m: Message):
         else:
             await msg.edit("🔄 `Starting Live Video Stream ...`")
             link = query
-            thumb = "https://telegra.ph/file/3e14128ad5c9ec47801bd.jpg"
+            thumb = "https://telegra.ph/file/ac4fc78828405fae179b2.jpg"
 
         vid_call = VIDEO_CALL.get(chat_id)
         if vid_call:
@@ -201,7 +201,7 @@ async def stream(client, m: Message):
             await group_call.join(chat_id)
             await group_call.start_video(video, with_audio=True, repeat=False)
             VIDEO_CALL[chat_id] = group_call
-            await m.reply_photo(photo=thumb, caption=f"▶️ **Started [Video Streaming](https://t.me/AsmSafone) In {m.chat.title} !**")
+            await m.reply_photo(photo=thumb, caption=f"▶️ **Started [Video Streaming](https://t.me/CDVC_Bot) In {m.chat.title} !**")
             await msg.delete()
         except Exception as e:
             await msg.edit(f"❌ **An Error Occoured !** \n\nError: `{e}`")
