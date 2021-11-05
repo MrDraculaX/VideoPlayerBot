@@ -28,11 +28,11 @@ buttons = [
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/UbalataPissuda"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/ApitaPissuda"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://t.me/LordVladtheImpalerTransylvania"),
             ]
          ]
 
@@ -49,9 +49,9 @@ async def search(client, query):
         answers.append(
             InlineQueryResultPhoto(
                 title="Deploy Own Video Player Bot",
-                thumb_url="https://telegra.ph//file/3ed5eafa4a95960d33980.jpg",
-                photo_url="https://telegra.ph//file/3ed5eafa4a95960d33980.jpg",
-                caption=f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @SafoTheBot 👑</b>",
+                thumb_url="https://telegra.ph/file/baf41bd8bea1945014240.mp4",
+                photo_url="https://telegra.ph/file/baf41bd8bea1945014240.mp4",
+                caption=f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@LordVladtheImpalerTransylvania 👑</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
