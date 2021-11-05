@@ -155,12 +155,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH VIDEOS", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://UbalataPissuda"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/ApitaPissuda"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("OWNER", url="https://t.me/LordVladtheImpalerTransylvania"),
+                InlineKeyboardButton("SOURCE CODE", url="https://t.me/LordVladtheImpalerTransylvania"),
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
@@ -182,12 +182,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH VIDEOS", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/UbalataPissuda"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/ApitaPissuda"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("OWNER", url="https://t.me/LordVladtheImpalerTransylvania"),
+                InlineKeyboardButton("SOURCE CODE", url="https://t.me/LordVladtheImpalerTransylvania"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
