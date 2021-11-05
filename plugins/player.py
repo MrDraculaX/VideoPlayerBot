@@ -229,11 +229,11 @@ allcmd = ["play", "current", "playlist", f"play@{Config.BOT_USERNAME}", f"curren
 async def not_chat(_, m: Message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/UbalataPissuda"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/ApitaPissuda"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/VideoPlayerBot/tree/alpha"),
+                InlineKeyboardButton("DEVELOPER", url="https://t.me/LordVladtheImpalerTransylvania"),
             ]
          ]
-    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/AsmSafone/VideoPlayerBot/tree/alpha) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This From My Master [Source Code](https://t.me/LordVladtheImpalerTransylvania) 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
